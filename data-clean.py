@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-# Baca file CSV
+# Baca file data-buku.csv
 data = pd.read_csv('bukukita/data-buku.csv', encoding='utf-8')
 
 # Hapus karakter khusus dari kolom 'Penerbit'
